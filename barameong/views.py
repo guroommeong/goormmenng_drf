@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404
 from .models import Dog, Reservation
 from datetime import datetime
 from drf_spectacular.utils import extend_schema, OpenApiParameter
-
+from urllib.parse import unquote
 
 class matchingAIAPIView(APIView):
 
@@ -177,6 +177,8 @@ class FindDogAPIView(APIView):
         # 쿼리스트링 파라미터 받기
         registration_number = request.query_params.get('registration_number')
         owner = request.query_params.get('owner')
+        if owner:
+            owner = unquote(owner)
 
         # Dog 객체를 필터링하여 가져오기
         dog = get_object_or_404(Dog, registration_number=registration_number, owner=owner)
@@ -206,5 +208,30 @@ class FindDogAPIView(APIView):
 
         return Response(response, status=status.HTTP_200_OK)
 
+class DogListAPIView(APIView):
 
+    def get(self, request):
+        dogs = Dog.objects.all()
+
+        dog_data = []
+        for dog in dogs:
+            dog_data.append({
+                "dog_id": dog.dog_id,
+                "name": dog.name,
+                "age": dog.age,
+                "gender": dog.gender,
+                "tags": dog.tags_list,  # 쉼표로 구분된 태그를 리스트로 변환하여 반환
+                "remaining_days": dog.remaining_days,
+                "description": dog.description,
+                "photo_url": dog.photo.url if dog.photo else None,
+                "shelter": {
+                    "shelter_id": dog.shelter.id,
+                    "name": dog.shelter.name,
+                    "description": dog.shelter.description,
+                    "contact": dog.shelter.contact,
+                    "shelter_photo_url": dog.shelter.photo.url if dog.shelter.photo else None
+                }
+            })
+
+        return Response(dog_data, status=200)
 
