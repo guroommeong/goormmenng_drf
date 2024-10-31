@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ea1e71-ece4-4b68-8f75-1bbed257db49" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/config/settings_production.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barameong/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/barameong/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barameong/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/barameong/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="production" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PerforceDirect.Settings">
@@ -71,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730347618212</updated>
       <workItem from="1730347619542" duration="32405000" />
-      <workItem from="1730406526809" duration="4676000" />
+      <workItem from="1730406526809" duration="8296000" />
     </task>
     <servers />
   </component>
