@@ -1,4 +1,4 @@
-#!/Users/gimjaehyeong/Documents/구름톤/백엔드서버/env/bin/python3.12
+#!/Users/gimjaehyeong/Documents/구름톤/backend/env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

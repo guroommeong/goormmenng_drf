@@ -66,27 +66,9 @@ class matchingAIAPIView(APIView):
 
     def get(self, request):
         # 쿼리스트링 파라미터 받기
-        dog_id = request.query_params.get('dog_id')
-        name = request.query_params.get('name')
-        age = request.query_params.get('age')
-        gender = request.query_params.get('gender')
-        tags = request.query_params.get('tags')
+        id = request.query_params.get('dog_id')
 
-        # 필터링 조건 생성
-        filters = {}
-        if dog_id:
-            filters['dog_id'] = dog_id  # 특정 dog_id로 필터링
-        if name:
-            filters['name__icontains'] = name  # 이름에 해당 문자열이 포함된 경우
-        if age:
-            filters['age'] = age  # 정확히 해당 나이
-        if gender:
-            filters['gender'] = gender  # 정확히 해당 성별
-        if tags:
-            filters['tags__icontains'] = tags  # 태그에 해당 문자열이 포함된 경우
-
-        # 필터링된 Dog 객체 가져오기 (단일 객체)
-        dog = get_object_or_404(Dog, **filters)
+        dog = get_object_or_404(Dog, dog_id=id)
 
         # 데이터 직렬화
         dog_data = {

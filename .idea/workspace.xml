@@ -4,7 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ea1e71-ece4-4b68-8f75-1bbed257db49" name="변경" comment="" />
+    <list default="true" id="63ea1e71-ece4-4b68-8f75-1bbed257db49" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/백엔드서버.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/백엔드서버.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barameong/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/barameong/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/distro" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/distro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/dotenv" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/dotenv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/dumppdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/dumppdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/httpx" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/httpx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/jsonschema" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/jsonschema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/normalizer" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/normalizer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/openai" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/openai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pdf2txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pdf2txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pdfplumber" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pdfplumber" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip3.12" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip3.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pygmentize" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pygmentize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pypdfium2" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pypdfium2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/sqlformat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/tqdm" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/tqdm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/Django-5.1.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/Django-5.1.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/PyYAML-6.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/PyYAML-6.0.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/annotated_types-0.7.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/annotated_types-0.7.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/anyio-4.6.2.post1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/anyio-4.6.2.post1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/asgiref-3.8.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/asgiref-3.8.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/attrs-24.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/attrs-24.2.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/certifi-2024.8.30.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/certifi-2024.8.30.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/cffi-1.17.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/cffi-1.17.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/charset_normalizer-3.4.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/charset_normalizer-3.4.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/cryptography-43.0.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/cryptography-43.0.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/distro-1.9.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/distro-1.9.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/h11-0.14.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/h11-0.14.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/httpcore-1.0.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/httpcore-1.0.6.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/httpx-0.27.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/httpx-0.27.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/idna-3.10.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/idna-3.10.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/inflection-0.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/inflection-0.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jiter-0.6.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jiter-0.6.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jsonschema-4.23.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jsonschema-4.23.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jsonschema_specifications-2024.10.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/jsonschema_specifications-2024.10.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/openai-1.53.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/openai-1.53.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/packaging-24.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/packaging-24.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pdfminer.six-20231228.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pdfminer.six-20231228.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pdfplumber-0.11.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pdfplumber-0.11.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pillow-11.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pillow-11.0.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pip-24.3.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pip-24.3.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pycparser-2.22.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pycparser-2.22.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pydantic-2.9.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pydantic-2.9.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pydantic_core-2.23.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pydantic_core-2.23.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pygments-2.18.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pygments-2.18.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pypdfium2-4.30.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pypdfium2-4.30.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/python_dotenv-1.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/python_dotenv-1.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pytz-2024.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/pytz-2024.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/referencing-0.35.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/referencing-0.35.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/rpds_py-0.20.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/rpds_py-0.20.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/sniffio-1.3.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/sniffio-1.3.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/sqlparse-0.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/sqlparse-0.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/tqdm-4.66.6.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/tqdm-4.66.6.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/typing_extensions-4.12.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.12/site-packages/uritemplate-4.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.12/site-packages/uritemplate-4.1.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/env/pyvenv.cfg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +90,9 @@
   <component name="PerforceDirect.Settings">
     <option name="CHARSET" value="없음" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2oBeuNmGhPdXKzoc8pOWGxJiPsL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,12 +102,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/gimjaehyeong/Documents/구름톤/백엔드서버",
+    "last_opened_file_path": "/Users/gimjaehyeong/Documents/구름톤/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730347618212</updated>
       <workItem from="1730347619542" duration="32405000" />
+      <workItem from="1730406526809" duration="1827000" />
     </task>
     <servers />
   </component>
