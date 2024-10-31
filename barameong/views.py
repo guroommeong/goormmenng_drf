@@ -150,8 +150,11 @@ class CompleteReservationAPIView(APIView):
             "reservation_number": reservation.reservation_number,
             "dog_id": reservation.dog.dog_id,
             "dog_image_url": reservation.dog.photo.url,
-            "shelter_image_url": reservation.dog.shelter.photo.url,
             "dog_name": reservation.dog.name,
+            "shelter_id": reservation.dog.shelter.id,
+            "shelter_image_url": reservation.dog.shelter.photo.url,
+            "shelter_name": reservation.dog.shelter.name,
+            "shelter_contact": reservation.dog.shelter.contact,
             "start_date": reservation.start_date,
             "end_date": reservation.end_date,
             "guest_name": reservation.guest_name,
@@ -167,14 +170,16 @@ class CompleteReservationAPIView(APIView):
         # 예약 번호로 예약 객체 가져오기
         reservation = get_object_or_404(Reservation, reservation_number=reservation_number)
 
-        # 응답 데이터 구성
         response_data = {
             "reservation_id": reservation.id,
             "reservation_number": reservation.reservation_number,
             "dog_id": reservation.dog.dog_id,
             "dog_image_url": reservation.dog.photo.url,
-            "shelter_image_url": reservation.dog.shelter.photo.url,
             "dog_name": reservation.dog.name,
+            "shelter_id": reservation.dog.shelter.id,
+            "shelter_image_url": reservation.dog.shelter.photo.url,
+            "shelter_name": reservation.dog.shelter.name,
+            "shelter_contact": reservation.dog.shelter.contact,
             "start_date": reservation.start_date,
             "end_date": reservation.end_date,
             "guest_name": reservation.guest_name,

@@ -1,1 +1,35 @@
+# .idea/workspace.xml, .idea/tasks.xml, .idea/usage.statistics.xml, .idea/dictionaries 
+# and other .idea folder files and folders can be added here to not track 
+# project-specific settings.
+.idea/
+
+# Plugin-specific files (add as necessary)
+.idea_modules/
+
+# File-based project formats
+*.iws
+*.iml
+*.ipr
+
+# Misc
+## Ignore all the .idea folder content except the following:
+## - .idea/codeStyles: shared code styles
+## - .idea/vcs.xml: shared VCS settings
+## - .idea/inspectionProfiles: shared inspection profiles
+## Add more if necessary.
+.idea/*
+!.idea/codeStyles/
+!.idea/vcs.xml
+!.idea/inspectionProfiles/
+
+# Ignore these files created by JetBrains tools
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
 
