@@ -4,7 +4,7 @@ import re
 import os
 
 # OpenAI 클라이언트 설정
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.environ.get('OPEN_AI_API'))
 
 # 새로운 쓰레드 생성 함수
 def create_thread():
